@@ -1,0 +1,173 @@
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --main-text-color-theme-dark: #ffffff;
+  --main-text-color-theme-light: #212121;
+  --secondary-text-color-theme-light: #757575;
+  --accent-color: #2196f3;
+  --btn-background-color: #188ce8;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+body {
+  font-family: var(--main-font);
+  color: var(--secondary-text-color-theme-light);
+}
+.subtitle {
+  color: var(--main-text-color-theme-light);
+}
+/*=============COMPONENTS===========*/
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+span.logo-part {
+  color: var(--accent-color);
+}
+.menu-link:hover,
+.menu-link:focus,
+.contacts-list-link:hover,
+.contacts-list-link:focus {
+  color: var(--accent-color);
+}
+.contacts-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color-theme-light);
+}
+/*============/COMPONENTS===========*/
+/*==============HEADER===========*/
+.menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color-theme-light);
+}
+/*==============/HEADER===========*/
+/* =============HERO=============*/
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /*color: var(--main-text-color-theme-dark)*/
+}
+.modal-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color-theme-dark);
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: var(--btn-background-color);
+}
+/* ================= /HERO ================= */
+/*==================BENEFITS================*/
+.benefits-head {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.benefits-text {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+/*==================/BENEFITS================*/
+/*==================ABOUT====================*/
+.subject {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/*==================/ABOUT====================*/
+/*==================EMPLOYEES=================*/
+.employees-list-name {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.employess-list-position {
+  font-family: var(--main-font);
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+/*==================/EMPLOYEES================*/
+/*==================FOOTER====================*/
+.contacts-footer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+/*.footer-address {
+  color: var(--main-text-color-theme-dark);
+}
+.footer-link {
+  color: rgba(255, 255, 255, 0.6);*/
+
+/*==================/FOOTER===================*/
+
+/*==================BUTTONS===================*/
+.button-pic {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color-theme-light);
+  background: #f5f4fa;
+  cursor: pointer;
+}
+.button-pic:hover,
+.button-pic:focus {
+  background-color: var(--accent-color);
+  color: var(--main-text-color-theme-dark);
+}
+/*==================/BUTTONS==================*/
+/*==================examples==================*/
+.exemples-list-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.exemples-list-position {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
+/*==================/examples=================*/
