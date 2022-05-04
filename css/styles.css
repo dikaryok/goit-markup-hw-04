@@ -116,7 +116,6 @@ li.contacts-list + .contacts-list {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: var(--accent-background-color-dark);
-  outline: 1px dashed brown;
   text-align: center;
 }
 .hero-title {
