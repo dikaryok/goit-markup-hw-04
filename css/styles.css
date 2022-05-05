@@ -134,8 +134,8 @@ li.contacts-list + .contacts-list {
   color: var(--main-text-color-theme-dark)
 }
 .modal-btn {
-  padding: 10px 32px;
-  min-width: 200px;
+
+  width: 200px;
   height: 50px;
   border-radius: 4px;
 
@@ -143,7 +143,7 @@ li.contacts-list + .contacts-list {
   font-size: 16px;
   line-height: 1.88;
   display: inline-block;
-  align-items: center;
+  text-align: center;
   letter-spacing: 0.06em;
   color: var(--main-text-color-theme-dark);
   background: var(--accent-color);
