@@ -134,10 +134,10 @@ li.contacts-list + .contacts-list {
   color: var(--main-text-color-theme-dark)
 }
 .modal-btn {
-
   width: 200px;
   height: 50px;
   border-radius: 4px;
+  padding: 10px 25px;
 
   font-weight: 700;
   font-size: 16px;
@@ -188,9 +188,12 @@ li.contacts-list + .contacts-list {
   letter-spacing: 0.03em;
   
 }
+
+
+
+
 /*==================/BENEFITS================*/
 /* ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ */
-
 /*==================ABOUT====================*/
 .section.about {
   padding-top: 0;
