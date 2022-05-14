@@ -39,13 +39,27 @@
         </ul>
         <ul class="list contacts">
           <li class="contacts-list">
-            <a class="link contacts-list-link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
+            <a
+              class="link contacts-list-link mail"
+              href="mailto:info@devstudio.com"
+              title="Отправить письмо"
+            >
+              <svg class="contacts-icon mail-icon" width="16" height="12">
+                <use href="./images/svg/icons.svg#envelope"></use>
+              </svg>
+              info@devstudio.com</a
             >
           </li>
           <li class="contacts-list">
-            <a class="link contacts-list-link" href="tel:0961111111"
-              >+38 096 111 11 11</a
+            <a
+              class="link contacts-list-link tel"
+              href="tel:0961111111"
+              title="Набрать номер"
+            >
+              <svg class="contacts-icon phone-icon" width="10" height="16">
+                <use href="./images/svg/icons.svg#smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a
             >
           </li>
         </ul>
@@ -53,14 +67,12 @@
     </header>
     <main>
       <section class="section">
-        <!--BUTTONS-->
-
         <div class="buttons container">
+          <!--BUTTONS-->
           <h2 class="buttons-title" hidden>Buttons</h2>
-
           <ul class="list button-list">
             <li class="button-item">
-              <button class="button-pic" type="button">Все</button>
+              <button class="button-pic current" type="button">Все</button>
             </li>
             <li class="button-item">
               <button class="button-pic" type="button">Веб-сайты</button>
@@ -75,9 +87,7 @@
               <button class="button-pic" type="button">Маркетинг</button>
             </li>
           </ul>
-
           <!--examples-->
-
           <ul class="list">
             <li>
               <h2 class="examples-title" hidden>Examples</h2>
@@ -85,137 +95,155 @@
             <li>
               <ul class="list examples-list">
                 <li class="examples-list-item">
-                  <img
-                    class="examples-list-img"
-                    src="./images/exsamples/Technockrack.jpg"
-                    alt="Разработка сайта"
-                    width="370"
-                    height="294"
-                  />
-                  <div class="examples-box">
-                    <h3 class="examples-list-name subtitle">Технокряк</h3>
-                    <p class="examples-list-position">Веб-сайт</p>
-                  </div>
+                  <a class="link" href="#">
+                    <img
+                      class="examples-list-img"
+                      src="./images/exsamples/Technockrack.jpg"
+                      alt="Разработка сайта"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="examples-box">
+                      <h3 class="examples-list-name subtitle">Технокряк</h3>
+                      <p class="examples-list-position">Веб-сайт</p>
+                    </div>
+                  </a>
                 </li>
                 <li class="examples-list-item">
-                  <img
-                    class="examples-list-img"
-                    src="./images/exsamples/poster.jpg"
-                    alt="Игроки в баскетбол"
-                    width="370"
-                    height="294"
-                  />
-                  <div class="examples-box">
-                    <h3 class="examples-list-name subtitle">
-                      Постер <span lang="en">New Orlean vs Golden Star</span>
-                    </h3>
-                    <p class="examples-list-position">Дизайн</p>
-                  </div>
+                  <a class="link" href="#">
+                    <img
+                      class="examples-list-img"
+                      src="./images/exsamples/poster.jpg"
+                      alt="Игроки в баскетбол"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="examples-box">
+                      <h3 class="examples-list-name subtitle">
+                        Постер <span lang="en">New Orlean vs Golden Star</span>
+                      </h3>
+                      <p class="examples-list-position">Дизайн</p>
+                    </div>
+                  </a>
                 </li>
                 <li class="examples-list-item">
-                  <img
-                    class="examples-list-img"
-                    src="./images/exsamples/restaurant.jpg"
-                    alt="Основан в 2001 году"
-                    width="370"
-                    height="294"
-                  />
-                  <div class="examples-box">
-                    <h3 class="examples-list-name subtitle">
-                      Ресторан <span lang="en">Seafood</span>
-                    </h3>
-                    <p class="examples-list-position">Приложение</p>
-                  </div>
+                  <a class="link" href="#">
+                    <img
+                      class="examples-list-img"
+                      src="./images/exsamples/restaurant.jpg"
+                      alt="Основан в 2001 году"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="examples-box">
+                      <h3 class="examples-list-name subtitle">
+                        Ресторан <span lang="en">Seafood</span>
+                      </h3>
+                      <p class="examples-list-position">Приложение</p>
+                    </div>
+                  </a>
                 </li>
                 <li class="examples-list-item">
-                  <img
-                    class="examples-list-img"
-                    src="./images/exsamples/prime.jpg"
-                    alt="Наушники"
-                    width="370"
-                    height="294"
-                  />
-                  <div class="examples-box">
-                    <h3 class="examples-list-name subtitle">
-                      Проект <span lang="en">Prime</span>
-                    </h3>
-                    <p class="examples-list-position">Маркетинг</p>
-                  </div>
+                  <a class="link" href="#">
+                    <img
+                      class="examples-list-img"
+                      src="./images/exsamples/prime.jpg"
+                      alt="Наушники"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="examples-box">
+                      <h3 class="examples-list-name subtitle">
+                        Проект <span lang="en">Prime</span>
+                      </h3>
+                      <p class="examples-list-position">Маркетинг</p>
+                    </div>
+                  </a>
                 </li>
                 <li class="examples-list-item">
-                  <img
-                    class="examples-list-img"
-                    src="./images/exsamples/boxes.jpg"
-                    alt="Коробки"
-                    width="370"
-                    height="294"
-                  />
-                  <div class="examples-box">
-                    <h3 class="examples-list-name subtitle">
-                      Проект <span lang="en">Boxes</span>
-                    </h3>
-                    <p class="examples-list-position">Приложение</p>
-                  </div>
+                  <a class="link" href="#">
+                    <img
+                      class="examples-list-img"
+                      src="./images/exsamples/boxes.jpg"
+                      alt="Коробки"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="examples-box">
+                      <h3 class="examples-list-name subtitle">
+                        Проект <span lang="en">Boxes</span>
+                      </h3>
+                      <p class="examples-list-position">Приложение</p>
+                    </div>
+                  </a>
                 </li>
                 <li class="examples-list-item">
-                  <img
-                    class="examples-list-img"
-                    src="./images/exsamples/inspiration.jpg"
-                    alt="Монитор"
-                    width="370"
-                    height="294"
-                  />
-                  <div class="examples-box">
-                    <h3 class="examples-list-name subtitle" lang="en">
-                      Inspiration has no Borders
-                    </h3>
-                    <p class="examples-list-position">Веб-сайт</p>
-                  </div>
+                  <a class="link" href="#">
+                    <img
+                      class="examples-list-img"
+                      src="./images/exsamples/inspiration.jpg"
+                      alt="Монитор"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="examples-box">
+                      <h3 class="examples-list-name subtitle" lang="en">
+                        Inspiration has no Borders
+                      </h3>
+                      <p class="examples-list-position">Веб-сайт</p>
+                    </div>
+                  </a>
                 </li>
                 <li class="examples-list-item">
-                  <img
-                    class="examples-list-img"
-                    src="./images/exsamples/limited_edition.jpg"
-                    alt="Редкая книга"
-                    width="370"
-                    height="294"
-                  />
-                  <div class="examples-box">
-                    <h3 class="examples-list-name subtitle">
-                      Издание <span lang="en">Limited Edition</span>
-                    </h3>
-                    <p class="examples-list-position">Дизайн</p>
-                  </div>
+                  <a class="link" href="#">
+                    <img
+                      class="examples-list-img"
+                      src="./images/exsamples/limited_edition.jpg"
+                      alt="Редкая книга"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="examples-box">
+                      <h3 class="examples-list-name subtitle">
+                        Издание <span lang="en">Limited Edition</span>
+                      </h3>
+                      <p class="examples-list-position">Дизайн</p>
+                    </div>
+                  </a>
                 </li>
                 <li class="examples-list-item">
-                  <img
-                    class="examples-list-img"
-                    src="./images/exsamples/lab.jpg"
-                    alt="Бирка LAB EL TAB"
-                    width="370"
-                    height="294"
-                  />
-                  <div class="examples-box">
-                    <h3 class="examples-list-name subtitle">
-                      Проект <span lang="en">LAB</span>LAB
-                    </h3>
-                    <p class="examples-list-position">Маркетинг</p>
-                  </div>
+                  <a class="link" href="#">
+                    <img
+                      class="examples-list-img"
+                      src="./images/exsamples/lab.jpg"
+                      alt="Бирка LAB EL TAB"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="examples-box">
+                      <h3 class="examples-list-name subtitle">
+                        Проект <span lang="en">LAB</span>LAB
+                      </h3>
+                      <p class="examples-list-position">Маркетинг</p>
+                    </div>
+                  </a>
                 </li>
                 <li class="examples-list-item">
-                  <img
-                    class="examples-list-img"
-                    src="./images/exsamples/growing_business.jpg"
-                    alt="Работа за ноутбуком"
-                    width="370"
-                    height="294"
-                  />
-                  <div class="examples-box">
-                    <h3 class="examples-list-name subtitle" lang="en">
-                      Growing Business
-                    </h3>
-                    <p class="examples-list-position">Приложение</p>
-                  </div>
+                  <a class="link" href="#">
+                    <img
+                      class="examples-list-img"
+                      src="./images/exsamples/growing_business.jpg"
+                      alt="Работа за ноутбуком"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="examples-box">
+                      <h3 class="examples-list-name subtitle" lang="en">
+                        Growing Business
+                      </h3>
+                      <p class="examples-list-position">Приложение</p>
+                    </div>
+                  </a>
                 </li>
               </ul>
             </li>
@@ -225,39 +253,106 @@
     </main>
     <!--FOOTER-->
     <footer class="footer">
-      <div class="container">
-        <a class="link logo" href="./index.html" lang="en">
-          <span class="logo-part">Web</span>Studio</a
-        >
-        <address class="address">
-          <ul class="list">
-            <li class="address-list">
+      <div class="container footer-flex">
+        <div class="footer-box footer-contacts">
+          <a
+            class="link logo"
+            href="./index.html"
+            title="Перейти на главную страницу"
+            lang="en"
+          >
+            <span class="logo-part">Web</span>Studio</a
+          >
+          <address class="address">
+            <ul class="list">
+              <li class="address-list">
+                <a
+                  class="link contacts-list-link contacts-footer footer-address"
+                  href="https://goo.gl/maps/PbqtYwgtNbgsAqmw5"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Посмотрерь расположение на карте"
+                >
+                  г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="address-list">
+                <a
+                  class="link contacts-list-link contacts-footer footer-link"
+                  href="mailto:info@example.com"
+                  title="Отправить письмо"
+                >
+                  info@example.com</a
+                >
+              </li>
+              <li class="address-list">
+                <a
+                  class="link contacts-list-link contacts-footer footer-link"
+                  href="tel:0991111111"
+                  title="Набрать номер"
+                  >+38 099 111 11 11
+                </a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-box footer-icon-box">
+          <h3 class="benefits-head footer-title">ПРИСОЕДИНЯЙТЕСЬ</h3>
+          <ul class="list list-icon">
+            <li class="social-link-icon">
               <a
-                class="link contacts-list-link contacts-footer footer-address"
-                href="https://goo.gl/maps/PbqtYwgtNbgsAqmw5"
+                class="link social-link"
+                href="https://www.instagram.com/"
                 target="_blank"
                 rel="noopener noreferrer"
+                title="Перейти на страничку Instagram"
               >
-                г. Киев, пр-т Леси Украинки, 26</a
-              >
+                <svg class="social-icon" width="20" height="20">
+                  <use href="./images/svg/icons.svg#instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li class="address-list">
+            <li class="social-link-icon">
               <a
-                class="link contacts-list-link contacts-footer footer-link"
-                href="mailto:info@example.com"
+                class="link social-link"
+                href="https://twitter.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Перейти на страничку Twitter"
               >
-                info@example.com</a
-              >
+                <svg class="social-icon" width="20" height="20">
+                  <use href="./images/svg/icons.svg#twitter"></use>
+                </svg>
+              </a>
             </li>
-            <li class="address-list">
+            <li class="social-link-icon">
               <a
-                class="link contacts-list-link contacts-footer footer-link"
-                href="tel:0991111111"
-                >+38 099 111 11 11
+                class="link social-link"
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Перейти на страничку Facebook"
+              >
+                <svg class="social-icon" width="20" height="20">
+                  <use href="./images/svg/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-link-icon">
+              <a
+                class="link social-link"
+                href="https://www.linkedin.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Перейти на страничку Linkedin"
+              >
+                <svg class="social-icon" width="20" height="20">
+                  <use href="./images/svg/icons.svg#linkedin"></use>
+                </svg>
               </a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
